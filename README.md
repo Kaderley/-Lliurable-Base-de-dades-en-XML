@@ -2,6 +2,8 @@
 He creat la carpeta `dunder_mifflin_xml` al **Escritorio** i l'he obert amb **Visual Studio Code**
 <img width="512" height="288" alt="basededatos1" src="https://github.com/user-attachments/assets/4aa4c6ad-a342-4a69-92a3-f328cb3b32c8" />
 
+---
+
 ## 2. Fitxers creats i codi inicial
 He creat 2 fitxers, tot i que després he creat un més per poder fer la resolució d'errors:
 **`dunder.dtd`** → Defineix regles (ordre, elements obligatoris, atributs)
@@ -12,8 +14,6 @@ He creat 2 fitxers, tot i que després he creat un més per poder fer la resoluc
 
 ## 3. Errors intencionals (dunder_errors.xml)
 **He forçat 3 errors deliberats** per demostrar la validació:
-
-![3 errors de validació DTD en VSCode](capturas/3_errors.png)
 
 **Errors detectats:**
 **`productes` abans `comandes`** → *Orden incorrecte segons DTD*
