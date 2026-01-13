@@ -12,6 +12,8 @@ He creat 2 fitxers, tot i que després he creat un més per poder fer la resoluc
 <img width="512" height="288" alt="basededatos3" src="https://github.com/user-attachments/assets/6878e0b6-f942-4808-833b-a2309b7f370c" />
 <img width="512" height="288" alt="basededatos4" src="https://github.com/user-attachments/assets/e476a2d8-f7c7-4e28-9d53-8a0df1d7820f" />
 
+---
+
 ## 3. Errors intencionals (dunder_errors.xml)
 **He forçat 3 errors deliberats** per demostrar la validació:
 
@@ -20,6 +22,8 @@ He creat 2 fitxers, tot i que després he creat un més per poder fer la resoluc
 **`<producte>` sense `<preu>`** → *Element obligatori absent*
 **`tipus="urgente"`** → *Atribut no declarat al DTD*
 <img width="512" height="288" alt="basededatos5" src="https://github.com/user-attachments/assets/4ec7538f-ad03-4372-be12-30aade48f6f3" />
+
+---
 
 ## 4. Document corregit (0 errors)
 
