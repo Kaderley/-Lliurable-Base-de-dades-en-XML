@@ -1,0 +1,15 @@
+<!ELEMENT empresa (departamento+, empleado+)>
+
+<!ELEMENT departamento (nombre_dep, presupuesto)>
+<!ATTLIST departamento
+id_dep ID #REQUIRED>
+<!ELEMENT nombre_dep (#PCDATA)>
+<!ELEMENT presupuesto (#PCDATA)>
+
+<!ELEMENT empleado (nombre, apellido, puesto, salario)>
+<!ATTLIST empleado
+id_emp ID #REQUIRED
+id_dep IDREF #REQUIRED> <!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT puesto (#PCDATA)>
+<!ELEMENT salario (#PCDATA)>
