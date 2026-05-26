@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa SYSTEM "dunder.dtd">
+
+<empresa>
+
+<departamento id_dep="DEP01">
+<nombre_dep>Ventas</nombre_dep>
+<presupuesto>50000</presupuesto>
+</departamento>
+
+<departamento id_dep="DEP02">
+<nombre_dep>Contabilidad</nombre_dep>
+<presupuesto>35000</presupuesto>
+</departamento>
+
+<departamento id_dep="DEP03">
+<nombre_dep>Recursos Humanos</nombre_dep>
+<presupuesto>20000</presupuesto>
+</departamento>
+
+<empleado id_emp="EMP01" id_dep="DEP01">
+<nombre>Jim</nombre>
+<apellido>Halpert</apellido>
+<puesto>Comercial Senior</puesto>
+<salario>2800</salario>
+</empleado>
+
+<empleado id_emp="EMP02" id_dep="DEP02">
+<nombre>Angela</nombre>
+<apellido>Martin</apellido>
+<puesto>Jefa de Contabilidad</puesto>
+<salario>3200</salario>
+</empleado>
+
+<empleado id_emp="EMP03" id_dep="DEP03">
+<nombre>Toby</nombre>
+<apellido>Flenderson</apellido>
+<puesto>Especialista RRHH</puesto>
+<salario>2500</salario>
+</empleado>
+
+</empresa>
